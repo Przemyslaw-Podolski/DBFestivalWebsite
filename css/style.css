@@ -4,6 +4,7 @@
 
 body{
     background-color: #cddde7;
+    font-family: sans-serif;
 }
 
 .title-image{
@@ -25,6 +26,7 @@ body{
     position: sticky;
     justify-content: space-around;
     top: 0;
+    z-index: 1;
 }
 
 .menu-table{
@@ -36,12 +38,30 @@ body{
     padding: 5px;
     text-align: center;
     background: #1d3c49;
+    transition: 0.2s;
+}
+
+.menu .menu-element:hover{
+    background: #5b6c77;
 }
 
 .menu .menu-element button{
     background: none;
     border: none;
     color: ghostwhite;
+}
+
+.title{
+    text-align: center;
+}
+
+.welcome{
+    position: relative;
+    left: 12%;
+    text-align: justify;
+    max-width: 1200px;
+    width: 76%;
+    z-index: 0;
 }
 
 .video-galery{
